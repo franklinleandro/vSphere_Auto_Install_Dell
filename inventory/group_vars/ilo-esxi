@@ -1,20 +1,21 @@
 ---
-###### Grupo  de variáveis para VMware ESXi ########
-root_password: 'PoC@2025!'
-global_vlan_id: 0
+###### Group Vars for ILO Provisioning ########
+###### ESXI info
+root_password: 'password'
+global_vlan_id: 1146
 global_netmask: 255.255.255.0
-global_gw: 10.107.29.1
-global_dns1: 10.107.14.14
-global_dns2: 10.107.14.15
-global_ntp1: 10.107.14.11
-global_ntp2: 10.107.14.12
+global_gw: 1.6.20.26
+global_dns1: 1.6.20.1
+global_dns2: 1.6.20.2
+global_ntp1: 1.6.20.4
+global_ntp2: 1.6.20.5
 
 
-###### Grupo  de variáveis para acesso a Dell IDRAC ########
-ilo_user: root
-ilo_pass: calvin
+###### HPE ILO info #The iLO user's privilage have to access as Administrator
+ilo_user: administrator
+ilo_pass: password
 ilo_state: boot_once
 
 ###### Path on Remote server (ISO Name)
-src_iso_file: VMware-VMvisor-Installer-7.0U3n-21930508.x86_64.iso
+src_iso_file: VMware-ESXi-8.0.1.iso
 

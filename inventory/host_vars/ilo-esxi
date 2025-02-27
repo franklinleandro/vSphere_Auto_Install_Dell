@@ -1,17 +1,10 @@
 ---
 hosts:
-  - hostName: tpsp1esx3n00100.tpsp1infra.local
-    esxi_ip: 10.107.29.82
-    ilo_ip: 10.107.96.10
+  - hostName: srv33.saleh.miri.local
+    esxi_ip: 1.6.29.9
+    ilo_ip: 1.18.66.9
 
-  - hostName: tpsp1esx3n00101.tpsp1infra.local
-    esxi_ip: 10.107.29.83
-    ilo_ip: 10.107.96.11
+  - hostName: srv34.saleh.miri.local
+    esxi_ip: 1.6.29.10
+    ilo_ip: 1.18.66.10
 
-  - hostName: tpsp1esx3n00102.tpsp1infra.local
-    esxi_ip: 10.107.29.84
-    ilo_ip: 10.107.96.12
-
-  - hostName: tpsp1esx3n00103.tpsp1infra.local
-    esxi_ip: 10.107.29.85
-    ilo_ip: 10.107.96.13
